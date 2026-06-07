@@ -2,6 +2,8 @@
 
 Public shareable agent skills from my local `.agents` workspace.
 
+Quality standard: see [`QUALITY.md`](QUALITY.md).
+
 ## Included
 
 | Skill | Description | Best Use Cases |
