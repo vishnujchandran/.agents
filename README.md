@@ -3,6 +3,9 @@
 Public shareable agent skills from my local `.agents` workspace.
 
 Quality standard: see [`QUALITY.md`](QUALITY.md).
+Contributing guide: [`CONTRIBUTING.md`](CONTRIBUTING.md).
+New skill scaffold: [`SKILL_TEMPLATE.md`](SKILL_TEMPLATE.md).
+Release history: [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Included
 
@@ -18,6 +21,40 @@ Quality standard: see [`QUALITY.md`](QUALITY.md).
 | [`docs-from-code`](skills/docs-from-code/) | Sync and generate docs from real code/config/tests to prevent docs drift. | README refresh, setup/docs sync after changes, release documentation |
 | [`seo-audit`](skills/seo-audit/) | Full on-page SEO audit and direct code-fix workflow (metadata, schema, indexability, CWV readiness). | SEO quick wins, metadata/schema fixes, ranking readiness audits |
 | [`session-close`](skills/session-close/) | End a dev session with checkpoint notes, pending tasks, and resume-ready handoff. | Daily wrap-up, handoff notes, seamless next-session restart |
+
+## Starter Packs
+
+### Daily Dev Pack
+- [`session-open`](skills/session-open/)
+- [`code-quality-check`](skills/code-quality-check/)
+- [`test-suite-forge`](skills/test-suite-forge/)
+- [`session-close`](skills/session-close/)
+
+### Security Pack
+- [`api-security-audit`](skills/api-security-audit/)
+- [`sec-audit`](skills/sec-audit/)
+
+### Reliability Pack
+- [`performance-hotspot-check`](skills/performance-hotspot-check/)
+- [`observability-bootstrap`](skills/observability-bootstrap/)
+- [`test-suite-forge`](skills/test-suite-forge/)
+
+## Compatibility Matrix (quick view)
+
+| Skill | General Repos | Web Apps | APIs | Next.js + Supabase |
+|---|---|---|---|---|
+| `session-open` | ✅ | ✅ | ✅ | ✅ |
+| `code-quality-check` | ✅ | ✅ | ✅ | ✅ |
+| `test-suite-forge` | ✅ | ✅ | ✅ | ✅ |
+| `performance-hotspot-check` | ✅ | ✅ | ✅ | ✅ |
+| `observability-bootstrap` | ✅ | ✅ | ✅ | ✅ |
+| `api-security-audit` | ✅ | ✅ | ✅ | ✅ |
+| `sec-audit` | ⚠️ | ✅ | ✅ | ✅ (optimized) |
+| `docs-from-code` | ✅ | ✅ | ✅ | ✅ |
+| `seo-audit` | ⚠️ | ✅ (optimized) | ⚠️ | ✅ |
+| `session-close` | ✅ | ✅ | ✅ | ✅ |
+
+> ⚠️ = supported with narrower scope or best on specific stacks.
 
 ## Excluded (private)
 

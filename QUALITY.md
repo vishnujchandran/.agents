@@ -23,6 +23,8 @@ Use this rubric to keep all public skills production-grade and consistent.
 - Must separate facts from assumptions
 - Must include priority model (`P0/P1/P2` when relevant)
 - Must not claim commands/tests were run unless actually run
+- Must cite source files/commands for factual technical claims when possible
+- Must mark unknowns explicitly (no guessing/hallucinated certainty)
 
 ## Safety Rules
 - Never exfiltrate secrets/code
