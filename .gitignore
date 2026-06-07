@@ -1,0 +1,17 @@
+# Private/personal skills
+skills/microsoft-foundry/
+skills/omniscience/
+
+# Local state and secrets
+.skill-lock.json
+**/.env
+**/.env.*
+*.log
+.DS_Store
+
+# Tool/runtime artifacts
+node_modules/
+dist/
+coverage/
+.vscode/
+.idea/
